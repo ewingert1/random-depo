@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
             std_msgs::String msg;
 			
 			std::stringstream ss;
-			ss << "hello world " << count;
+			ss << "hello world ";
 			msg.data = ss.str();
 
            //Publish the message
